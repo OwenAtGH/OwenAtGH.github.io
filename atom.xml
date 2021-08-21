@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>行到水穷处</title>
+  
+  <subtitle>Going to Where the Water Ends</subtitle>
+  <link href="https://owenatgh.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://owenatgh.github.io/"/>
+  <updated>2021-08-21T07:31:14.844Z</updated>
+  <id>https://owenatgh.github.io/</id>
+  
+  <author>
+    <name>OwenAtGH</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://owenatgh.github.io/2021/08/20/1stthings1st/"/>
+    <id>https://owenatgh.github.io/2021/08/20/1stthings1st/</id>
+    <published>2021-08-20T07:48:21.624Z</published>
+    <updated>2021-08-21T07:31:14.844Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>​—<br>title:你好!<br>date:2021-08-20 15:48:21<br>tags:闲谈/Chat<br>生活/Life<br>categories:非技术类/Others<br>top:true<br>​—<br>你好！这个blog会不定期发布一些技术学习和生活方面的内容。<br>时刻欢迎你的访问。<br>除了注明为引用的文章外，其余帖子内容均为原创，有幸被转载的话请注明原作者，谢谢你。:)  </p><hr><p>当前基于的主题：hexo主题meadow，主题作者的GitHub主页：<a href="https://github.com/kb1000fx">https://github.com/kb1000fx</a>  </p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;​—&lt;br&gt;title:你好!&lt;br&gt;date:2021-08-20 15:48:21&lt;br&gt;tags:闲谈/Chat&lt;br&gt;生活/Life&lt;br&gt;categories:非技术类/Others&lt;br&gt;top:true&lt;br&gt;​—&lt;br&gt;你好！这个blog会不定期发</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1st post</title>
+    <link href="https://owenatgh.github.io/2021/08/17/1st-post/"/>
+    <id>https://owenatgh.github.io/2021/08/17/1st-post/</id>
+    <published>2021-08-17T05:48:49.000Z</published>
+    <updated>2021-08-17T05:54:19.815Z</updated>
+    
+    <content type="html"><![CDATA[<p>first blog test</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;first blog test&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://owenatgh.github.io/2021/08/17/hello-world/"/>
+    <id>https://owenatgh.github.io/2021/08/17/hello-world/</id>
+    <published>2021-08-17T05:44:34.304Z</published>
+    <updated>2021-08-17T05:44:34.304Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
