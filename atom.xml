@@ -6,7 +6,7 @@
   <link href="https://owenatgh.github.io/atom.xml" rel="self"/>
   
   <link href="https://owenatgh.github.io/"/>
-  <updated>2021-09-06T12:34:03.730Z</updated>
+  <updated>2021-09-06T13:09:49.154Z</updated>
   <id>https://owenatgh.github.io/</id>
   
   <author>
@@ -17,24 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://owenatgh.github.io/2021/09/06/toptest/"/>
-    <id>https://owenatgh.github.io/2021/09/06/toptest/</id>
-    <published>2021-09-06T12:34:03.730Z</published>
-    <updated>2021-09-06T12:34:03.730Z</updated>
+    <title>使用hexo搭建Github博客和写文章</title>
+    <link href="https://owenatgh.github.io/2021/09/06/2nd/"/>
+    <id>https://owenatgh.github.io/2021/09/06/2nd/</id>
+    <published>2021-09-06T13:06:36.000Z</published>
+    <updated>2021-09-06T13:09:49.154Z</updated>
+    
+    <content type="html"><![CDATA[<hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+</summary>
+      
     
     
     
     
+    <category term="Github" scheme="https://owenatgh.github.io/tags/Github/"/>
     
   </entry>
   
   <entry>
-    <title>你好!</title>
+    <title>你好！/置顶贴纸</title>
     <link href="https://owenatgh.github.io/2021/08/20/1stthings1st/"/>
     <id>https://owenatgh.github.io/2021/08/20/1stthings1st/</id>
     <published>2021-08-20T07:48:21.000Z</published>
-    <updated>2021-09-06T12:51:31.254Z</updated>
+    <updated>2021-09-06T13:00:31.365Z</updated>
     
     <content type="html"><![CDATA[<hr><p>你好！这个blog会不定期发布一些技术学习和生活方面的内容。<br>时刻欢迎你的访问。<br>除了注明为引用的文章外，其余帖子内容均为原创，有幸被转载的话请注明原作者，谢谢你。:)  </p><hr><h2 id="当前基于的主题：hexo主题meadow，主题作者的GitHub主页：https-github-com-kb1000fx"><a href="#当前基于的主题：hexo主题meadow，主题作者的GitHub主页：https-github-com-kb1000fx" class="headerlink" title="当前基于的主题：hexo主题meadow，主题作者的GitHub主页：https://github.com/kb1000fx  "></a>当前基于的主题：hexo主题meadow，主题作者的GitHub主页：<a href="https://github.com/kb1000fx">https://github.com/kb1000fx</a>  </h2>]]></content>
     
