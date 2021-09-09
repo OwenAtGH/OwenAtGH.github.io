@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>:）</title>
+    <url>/2021/08/20/1stthings1st/</url>
+    <content><![CDATA[<p>你好！这儿是一只一直在路上的计算机菜鸟。<br>这个blog会不定期发布一些技术学习和生活方面的内容。（在这条置顶内容下面，帖子顺序是由新到旧。）<br>时刻欢迎你的访问、以及和我聊关于博客内容和这个博客本身的问题。<br>除了注明出处的内容外，其余的在帖子内出现的文字、图片等为原创，假如有幸被转载的话请注明原作者，谢谢你。:)<br>当前基于的主题：hexo主题meadow，主题作者的GitHub主页：<a href="https://github.com/kb1000fx">https://github.com/kb1000fx</a>  </p>
+<hr>
+]]></content>
+      <categories>
+        <category>非技术类/Others</category>
+      </categories>
+      <tags>
+        <tag>闲谈/Chat</tag>
+        <tag>生活/Life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo搭建Github博客和写文章</title>
+    <url>/2021/09/06/2nd/</url>
+    <content><![CDATA[<p>作为这个博客的第一篇文章，接下来写一写它是怎么搭建的。准备写成接近入门指南一样的详细度。<br>首先为什么选择用Github来实现个人博客：可以选择不用花钱租域名</p>
+<hr>
+]]></content>
+      <categories>
+        <category>其它技术类/Cats-and-dogs</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+</search>
