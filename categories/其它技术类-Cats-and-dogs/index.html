@@ -50,62 +50,6 @@
 
 
 
-    
-        <script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        
-            load: ['[tex]/mhchem'],
-        
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        
-            packages: {'[+]': ['mhchem']},
-        
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
           
 
 
@@ -249,104 +193,25 @@
   
   <main id="main-contain" class="mdui-container mdui-m-t-5">
     
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/2021/08/20/1stthings1st/">:）</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      发布于:&nbsp;2021-08-20
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新于:&nbsp;2021-09-25
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分类于:&nbsp;<a class="category-link" href="/categories/%E9%9D%9E%E6%8A%80%E6%9C%AF%E7%B1%BB-Others/">非技术类/Others</a>
-    </span>
     
-  </div>
-</div>   
     
 
 
-
-      
-      
-  <div class="post-tags">
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E9%97%B2%E8%B0%88-Chat/ >闲谈/Chat</a>
-      </i>
-    
-  </div>
-
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>你好！这儿是一只一直在路上的计算机菜鸟。<br>这个blog会不定期发布一些技术学习和生活方面的内容。（在这条置顶内容下面，帖子顺序是由新到旧。）<br>时刻欢迎你的访问、以及和我聊关于博客内容和这个博客本身的问题。<br>除了注明出处的内容外，其余的在帖子内出现的文字、图片等为原创，假如有幸被转载的话请注明原作者，谢谢你。:)<br>当前使用的主题：hexo主题meadow，主题作者的GitHub主页：<a target="_blank" rel="noopener" href="https://github.com/kb1000fx">https://github.com/kb1000fx</a>  </p>
-          
+<div class="mdui-card mdui-p-a-4 mdui-m-b-5">
+    <div class="posts-collapse">
+        <div class="collection-title">
+            <h2>其它技术类/Cats-and-dogs<small>分类</small></h2>
         </div>
         
-        <div style="text-align: center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/2021/08/20/1stthings1st/">阅读更多</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/2021/09/06/2nd/">Hexo搭建个人博客</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      发布于:&nbsp;2021-09-06
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新于:&nbsp;2021-09-25
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分类于:&nbsp;<a class="category-link" href="/categories/%E5%85%B6%E5%AE%83%E6%8A%80%E6%9C%AF%E7%B1%BB-Cats-and-dogs/">其它技术类/Cats-and-dogs</a>
-    </span>
-    
-  </div>
-</div>   
-    
-
-
-
-      
-      
-  <div class="post-tags">
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E9%97%B2%E8%B0%88-Chat/ >闲谈/Chat</a>
-      </i>
-    
-  </div>
-
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>作为这个博客的第一篇文章，想记录一下它是怎么搭建的。然而自己的搭建过程没有截图之类的细节的记录，比大部分教程要粗略很多。<br>这种搭博客的方式很简单，对于没有经验的人来说也可以对着教程很快地搭建，然而由于我的强大的踩雷能力…导致比一般情况花了更长时间。<br>首先为什么选择用Github来实现个人博客：第一是它可以是完全免费的，不需要花钱租服务器，租域名。但是假如有域名又能很方便地绑定起来。<br>其次还有不少别的优点，如全是静态文件，便于打包转移，等等。  </p>
-<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="...
-          
-        </div>
+            <div class="collection-item">
+                <h3><a href="/2021/09/06/2nd/">Hexo搭建个人博客</a></h3>
+                <time itemprop="dateCreated" datetime=2021-09-06 >
+                    2021.09.06
+                </time>
+            </div>
         
-        <div style="text-align: center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/2021/09/06/2nd/">阅读更多</a>
-        </div>
-      </div>
-    </article>
+    </div>
+</div>
 
 
 
