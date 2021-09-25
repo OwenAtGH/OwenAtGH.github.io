@@ -263,18 +263,7 @@
 
   
   <div class="mdui-card-content mdui-typo mdui-p-x-4">
-    <p>作为这个博客的第一篇文章，想记录一下它是怎么搭建的。然而自己的搭建过程没有截图之类的细节的记录，比大部分教程要粗略很多。<br>这种搭博客的方式很简单，对于没有经验的人来说也可以对着教程很快地搭建，然而由于我的强大的踩雷能力…导致比一般情况花了更长时间。<br>首先为什么选择用Github来实现个人博客：第一是它可以是完全免费的，不需要花钱租服务器，租域名。但是假如有域名又能很方便地绑定起来。<br>其次还有不少别的优点，如全是静态文件，便于打包转移，等等。  </p>
-<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>需要准备如下的东西：  </p>
-<ul>
-<li>Git  </li>
-<li>Nodejs  </li>
-</ul>
-<h3 id="前期大致过程"><a href="#前期大致过程" class="headerlink" title="前期大致过程"></a>前期大致过程</h3><p>主要的步骤在<a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo官方文档</a>中有详细的说明，这里简单写一些。<br>首先在Github上新建一个repository，名字为“我的Github用户名.github.io”，仓库将在Github存放博客的代码。<br>此外还需配置SSH key。<br>回到本地，鼠标右键菜单点击“Git Bash Here”的选项。<br>输入安装Hexo的命令：<br><code>$ npm install -g hexo-cli</code><br>等待安装完成，依次输入：<br><code>$ hexo init 我想放博客相关内容的文件夹名（如blogtest）</code><br><code>$ cd blogtest</code><br><code>$ npm install</code><br>完成后，博客文件夹下出现node_modules等文件夹，和config.yml等文件。通过编辑config.yml的内容可以修改博客的一些配置信息，比如网站名、使用语言等。之后在每个主题的文件夹下会有一个同名文件，可用来调整对应的主题的配置。<br>输入hexo g命令生成博客页面，再输入hexo s命令产生本地预览页面。hexo s执行后提示进入<a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> 进行预览，进入后可看到初始的博客界面。在命令行按Ctrl+c结束。<br>为了快速得到更加个性化和美观丰富的界面，可以clone现有的hexo主题。<br>完成后更改_config.yml中的theme一栏为新的主题名，重新hexo g。  </p>
-<h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><p>后续对于博客网站的优化通过修改两个config.yml（还有一些别的文件）的内容就能方便地进行，如果看上的主题自带了相关功能可以不用自己写代码。<br>每次修改blog本身或者文章完成后进行所谓的“hexo三连”应用更改，为了使用方便，可以把三条命令（hexo c，hexo g，hexo d）都写到博客文件夹下的一个脚本文件（如deploy.sh）里面，这样每次在git bash的时候只需要输入命令：<br><code>$ sh deploy.sh</code><br>写博客的文章一般是用markdown语法，markdown编辑器有很多，Typora就不错。或者就在VScode里面写也行。  </p>
-<h3 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h3><h4 id="一个报错"><a href="#一个报错" class="headerlink" title="一个报错"></a>一个报错</h4><p>这个报错说的是spawn failed，网上相关这个问题的解决方法也很多，也有例如<a href="https://www.jianshu.com/p/c60ad2a33a1e" target="_blank">https://www.jianshu.com/p/c60ad2a33a1e</a>这样的详细总结。然而实际上某次出现这个问题之后，把网上提到的方法都试了一遍，居然还是无效果。结果过了几天再试它又好了。大概是什么没注意的问题吧。  </p>
-<h4 id="添加live2d"><a href="#添加live2d" class="headerlink" title="添加live2d"></a>添加live2d</h4><p>这个比较有意思，但是除非自己能做这些动态，不然就只能用别人现成的模型了，主要都是一些比较二次元的小人儿。当然也有我用的这种猫猫。<br>hexo有live2d插件，其作用就是在博客页面上放一个动态模型，一般会做成会跟着鼠标的移动而转移视线。<br>直接看：<a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank">官方文档</a>。  </p>
-<h4 id="添加背景音乐"><a href="#添加背景音乐" class="headerlink" title="添加背景音乐"></a>添加背景音乐</h4><p>这个也是我喜欢的功能，而且可以比想象中更偷懒。<br>网页版的网易云音乐在歌曲界面点击生成外链播放器可以直接得到iframe的代码，可以直接复制来用。  </p>
-<p>大致说完啦。以后想自己写一个好看的主题。  </p>
+    <p>你好！这儿是一只一直在路上的计算机菜鸟。<br>这个blog会不定期发布一些技术学习和生活方面的内容。（在这条置顶内容下面，帖子顺序是由新到旧。）<br>时刻欢迎你的访问、以及和我聊关于博客内容和这个博客本身的问题。<br>除了注明出处的内容外，其余的在帖子内出现的文字、图片等为原创，假如有幸被转载的话请注明原作者，谢谢你。:)<br>当前使用的主题：hexo主题meadow，主题作者的GitHub主页：<a target="_blank" rel="noopener" href="https://github.com/kb1000fx">https://github.com/kb1000fx</a>  </p>
 
   </div>
   <!--文末结束语-->
@@ -302,7 +291,7 @@
     <ul class="mdui-menu" id="toc">
       <li class="mdui-menu-item">
         <a href="/2021/09/06/2nd/" id="toc-header" class="mdui-ripple">文章目录</a>
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E6%9C%9F%E5%A4%A7%E8%87%B4%E8%BF%87%E7%A8%8B"><span class="toc-number">2.</span> <span class="toc-text">前期大致过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E5%8D%9A%E5%AE%A2"><span class="toc-number">3.</span> <span class="toc-text">写博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A2%8E%E7%A2%8E%E5%BF%B5"><span class="toc-number">4.</span> <span class="toc-text">碎碎念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E6%8A%A5%E9%94%99"><span class="toc-number">4.1.</span> <span class="toc-text">一个报错</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0live2d"><span class="toc-number">4.2.</span> <span class="toc-text">添加live2d</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90"><span class="toc-number">4.3.</span> <span class="toc-text">添加背景音乐</span></a></li></ol></li></ol>
+        
       </li>
     </ul>
   </div>
